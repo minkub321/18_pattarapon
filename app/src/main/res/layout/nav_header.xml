@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:background="#6633FF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="40dp"
+    android:paddingBottom="20dp">
+
+    <!-- กรอบรูปโปรไฟล์ -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="6dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_account" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- ชื่อ -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="เทคโนโลยีสารสนเทศ"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- อีเมล -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="it@psc"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

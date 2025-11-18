@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.pattarapon.pscmenu.fragments.HomeFragment"
+        android:label="หน้าหลัก"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.pattarapon.pscmenu.fragments.AboutFragment"
+        android:label="เกี่ยวกับ"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/addproductFragment"
+        android:name="com.pattarapon.pscmenu.fragments.AddProductFragment"
+        android:label="เพิ่มสินค้า"
+        tools:layout="@layout/fragment_add_product" />
+    <fragment
+        android:id="@+id/productFragment"
+        android:name="com.pattarapon.pscmenu.fragments.ProductFragmen"
+        android:label="สินค้า"
+        tools:layout="@layout/fragment_product" />
+    <fragment
+        android:id="@+id/servicesFragment"
+        android:name="com.pattarapon.pscmenu.fragments.ServicesFragment"
+        android:label="บริการ"
+        tools:layout="@layout/fragment_services" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.pattarapon.pscmenu.fragments.SettingFragment"
+        android:label="ตั้งค่า"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.pattarapon.pscmenu.fragments.AccountFragment"
+        android:label="หน้าผู้ใช้งาน"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.pattarapon.pscmenu.fragments.NotificationFragment"
+        android:label="การแจ้งเตือน"
+        tools:layout="@layout/fragment_notification" />
+</navigation>
